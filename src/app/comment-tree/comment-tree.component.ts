@@ -1,17 +1,15 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-comment',
-  templateUrl: './comment.component.html',
-  styleUrls: ['./comment.component.scss']
+  selector: 'app-comment-tree',
+  templateUrl: './comment-tree.component.html',
+  styleUrls: ['./comment-tree.component.scss']
 })
-export class CommentComponent implements OnInit {
-  @Input() comment;
-  collapse: boolean;
+export class CommentTreeComponent implements OnInit {
+  @Input() commentTree;
 
   constructor() {}
 
-  ngOnInit() {
-    this.collapse = false;
-  }
+  ngOnInit() { }
+  
 }

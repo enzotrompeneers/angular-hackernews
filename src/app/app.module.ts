@@ -14,6 +14,8 @@ import { ItemCommentsComponent } from './item-comments/item-comments.component';
 //import {MomentModule} from 'angular2-moment';
 //import { DomainPipe } from './domain.pipe';
 import { routing } from './app.routes';
+import { CommentTreeComponent } from './comment-tree/comment-tree.component';
+import { CommentComponent } from './comment/comment.component';
 
 
 @NgModule({
@@ -24,6 +26,8 @@ import { routing } from './app.routes';
     FooterComponent,
     ItemComponent,
     ItemCommentsComponent,
+    CommentTreeComponent,
+    CommentComponent,
     //DomainPipe
   ],
   imports: [
